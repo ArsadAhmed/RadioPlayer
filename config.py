@@ -18,6 +18,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>
 
 import os
 import re
+import asyncio
 from youtube_dl import YoutubeDL
 
 from dotenv import load_dotenv
