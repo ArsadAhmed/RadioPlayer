@@ -40,6 +40,7 @@ async def main():
 
 bot.run(main())
 bot.start()
+print("\n\nRadio Player Bot Started, Join @AsmSafone!")
 bot.send(
     functions.bots.SetBotCommands(
         commands=[
@@ -129,3 +130,4 @@ bot.send(
 
 idle()
 bot.stop()
+print("\n\nRadio Player Bot Stopped, Join @AsmSafone!")
